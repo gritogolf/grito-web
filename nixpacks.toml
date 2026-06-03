@@ -1,8 +1,0 @@
-[phases.setup]
-nixPkgs = ["nodejs", "npm"]
-
-[phases.install]
-cmds = ["npm install -g serve"]
-
-[start]
-cmd = "serve -s . -l $PORT -c serve.json"
