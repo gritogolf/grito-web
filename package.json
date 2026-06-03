@@ -1,0 +1,12 @@
+{
+  "name": "grito-web",
+  "version": "1.0.0",
+  "description": "Marketing website for Grito — AI sports coaching apps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
